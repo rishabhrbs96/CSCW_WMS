@@ -8,23 +8,108 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/blood.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.container{
+				display: flex;
+			}
+			.col{
+				flex: 1;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2
-						<aside class="notes">
-						<p>Some notes</p>
-						</aside>
-						<p>Some slide text</p>
-						<aside class="notes">
-						<p>and some more notes</p>
-					</aside>
+				<section>
+					<h4>The Story of a Working Workflow Management System</h4>
+					<div class="container">
+						<div class="col">
+							<p>Steen Brahe</p>
+							<p>Danske Bank and IT University of Copenhagen</p>
+						</div>
+						<div class="col">
+							<p>Kjeld Schmidt</p>
+							<p>IT University of Copenhagen</p>
+						</div>
+					</div>
+					<small>Proceedings of the 2007 international ACM conference on Supporting group work, 2007, pp. 249-258.<a href="https://dl.acm.org/doi/10.1145/1316624.1316661" target="_new">[link]</a></small>
+				</section>
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							#### Q1: What workflow management systems have you used at your workplace/univesity?
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							##### At Workplace
+								- New Hire Onboarding/Job Termination
+								- Organizing Leave Requests
+								- Hardware Request for your workdesk
+								- Automatic Inventory Management System
+						</textarea>		
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							##### At University
+								- Admission Process
+								- Adding/Changing Degree Plan
+								- International students applying for work authorization
+								- Any process which reuires request approvals
+						</textarea>		
+					</section>
+				</section>
+				<section>
+						<section data-markdown>
+							<textarea data-template>
+								#### Q1: Why do you think
+								```text
+								“Exceptions” turned out to be an everyday occurrence in “office work”,
+								and as soon “exception handling” mechanisms had been devised,
+								analysts had to realize that there are also exceptions to exceptions.
+								```
+							</textarea>		
+						</section>
+						<section data-markdown>
+							<textarea data-template>
+								#### A1: Why do you think
+								- Steen Brahe
+								- Kjeld Schmidt
+								
+							</textarea>		
+						</section>
+				</section>
+				<section>
+						<section data-markdown>
+							<textarea data-template>
+								#### Q1: Why do you think
+								```text
+								However,
+the task-centric way of working was not accepted by the back
+office workers; “We do not want to be a factory. You get
+better caseworkers when they follow complete cases and not
+separated activities”. Their reason for not accepting to be
+assigned discrete tasks is that they would loose the overview
+of the case if they worked task-based. This is considered
+especially problematic in the handling of “exception cases”
+where overview is a necessary precondition for figuring out
+what caused the exception and how the case can be dealt
+with
+								```
+							</textarea>		
+						</section>
+						<section data-markdown>
+							<textarea data-template>
+								#### A1: Why do you think
+								- Steen Brahe
+								- Kjeld Schmidt
+								
+							</textarea>		
+						</section>
 				</section>
 			</div>
 		</div>
@@ -39,6 +124,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				slideNumber: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
