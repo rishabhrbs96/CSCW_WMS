@@ -1,156 +1,227 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>Presentation</title>
+    <title>Presentation</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/blood.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/blood.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-		<style>
-			.container{
-				display: flex;
-			}
-			.col{
-				flex: 1;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<h4>Crowdsourcing as a Tool for Research: Implications of Uncertainty</h4>
-					<div class="container">
-						<div class="col">
-							<p>Edith Law</p>
-							<small>University of Waterloo</small>
-						</div>
-						<div class="col">
-							<p>Krzysztof Z. Gajos</p>
-							<small>Harvard University</small>
-						</div>
-						<div class="col">
-							<p>Andrea Wiggins</p>
-							<small>University of Maryland</small>
-						</div>
-					</div>
-					<div class="container">
-						<div class="col">
-							<p>Mary L Gray</p>
-							<small>Microsoft Research</small>
-						</div>
-						<div class="col">
-							<p>Alex Williams</p>
-							<small>University of Waterloo</small>
-						</div>
-					</div>
-					<small>Edith Law et al., from Proceedings of ACM Computer-Supported Cooperative Work 2017, pp. 1544-1561.<a href="https://dl.acm.org/doi/pdf/10.1145/2998181.2998197" target="_new">[link]</a></small>
-				</section>
-				<section>
-					<section data-markdown>
-						<textarea data-template>
-							#### Q1: What workflow systems are being used at your university/workplace?
-						</textarea>
-					</section>
-					<section data-markdown>
-						<textarea data-template>
-							##### At Workplace
-								- New Hire Onboarding/Job Termination
-								- Organizing Leave Requests
-								- Hardware Request for your workdesk
-								- Automatic Inventory Management System
-								- Usually in a Microservices Architectur Environment
-						</textarea>		
-					</section>
-					<section data-markdown>
-						<textarea data-template>
-							##### At University
-								- Admission Process
-								- Adding/Changing Degree Plan
-								- International students applying for work authorization
-								- Any process which reuires request approvals
-						</textarea>		
-					</section>
-				</section>
-				<section>
-						<section data-markdown>
-							<textarea data-template>
-								#### Q2: Can you think of any non-software based example?
-							</textarea>
-						</section>
-						<section>
-							<div class="r-stack">
-								<img class="fragment" src="media/HowItsMade.jpg" width="500" height="500">
-								<img class="fragment" src="media/Ford.jpg" width="750" height="500">
-							</div>
-						</section>
-						
-				</section>
-				<section>
-						<section data-markdown>
-							<textarea data-template>
-								#### Q3: Has anyone built or worked on any workflow system? What tools/softwares did you used to build one?
-							</textarea>		
-						</section>
-						<section data-markdown>
-							<textarea data-template>
-								- AWS Simple Workflow Service (SWF), AWS Step Function, GCP Workflows
-								- Robotic Process Automation (RPA) Softwares
-							</textarea>		
-						</section>
-				</section>
-				<section>
-						<section data-markdown>
-							<textarea data-template>
-								#### Q4: Speaking of "Collaboration"
-								- Do you think the system discussed in the paper is a Collaborative Software?
-								- What new features or design changes will you intorduce so that it has
-									- Support for coordination?
-									- Support for communication?
-									- Support for awareness?
-							</textarea>		
-						</section>
-						<section data-markdown>
-							<textarea data-template>
-								Can you think of any other "collaborative" workflow management system?
-							</textarea>		
-						</section>
-				</section>
-				<section data-markdown>
-					<textarea data-template>
-						#### Q5: CSCW Issues
-						- What cscw issues can this new system face?
-					</textarea>		
-				</section>
-				<section data-markdown>
-					<textarea data-template>
-					# The End
-					</textarea>		
-				</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <style>
+      .container {
+        display: flex;
+      }
+      .col {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h4>
+            Crowdsourcing as a Tool for Research: Implications of Uncertainty
+          </h4>
+          <div class="container">
+            <div class="col">
+              <p>Edith Law</p>
+              <small>University of Waterloo</small>
+            </div>
+            <div class="col">
+              <p>Krzysztof Z. Gajos</p>
+              <small>Harvard University</small>
+            </div>
+            <div class="col">
+              <p>Andrea Wiggins</p>
+              <small>University of Maryland</small>
+            </div>
+          </div>
+          <div class="container">
+            <div class="col">
+              <p>Mary L Gray</p>
+              <small>Microsoft Research</small>
+            </div>
+            <div class="col">
+              <p>Alex Williams</p>
+              <small>University of Waterloo</small>
+            </div>
+          </div>
+          <small
+            >Edith Law et al., from Proceedings of ACM Computer-Supported
+            Cooperative Work 2017, pp. 1544-1561.<a
+              href="https://dl.acm.org/doi/pdf/10.1145/2998181.2998197"
+              target="_new"
+              >[link]</a
+            ></small
+          >
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+				#### Intorduciton and Motivation
+				- Numerous crowdsourcing platforms were available to support research as well as commercial goals.
+				- However, crowdsourcing was not widely adopted by researchers for generating, processing or analyzing research data.
+			</textarea
+          >
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+				#### Research Questions
+				- Under what circumstances is crowdsourcing a feasible, desirable, or useful tool for researchers?
+				- Under what circumstances is crowdsourcing not suitable for research?
+			</textarea
+          >
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+				#### Definition of _Crowdsourcing_ and scope of the problem
+				- Efforts/Activities that engage large numbers of people over the **Web** to help collect and process data.
+				- This is different from the small-team, apprenticeship-like interactions that are currently common in research settings.
+			</textarea
+          >
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+				#### Study Design
+				- To understand and analyze current research practices around delegation, quality control,
+and data sharing and how crowdsourcing could fit in the picture.
+				- Authors conducted in-depth semi-structured interviews with 18 researchers: whose backgrounds spanned a range
+of academic disciplines like political science, astronomy, palaeontology, neurology, history, etc.
+			</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+				Each interview lasted 1 to 2 hours with a sequence of quesiotns designed to understand their research process.
+				- _"How much do you care about the quality versus the quantity of data?"_
+				- _"Are there particular worries about having data seen by other scientists or people?"_
+			</textarea
+            >
+          </section>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+				#### Analysis
+				Classified the audio excerpts into several iteratively-refined hierarchical codes and  explored the relationships amongst them.
+				- __Data__: *properties of the raw data*
+				- __Task__ : *Properties of the research task*
+				- __Activity__ : *Aspects of the research task*
+				- __Product__ : *Properties of what was produced*
+				- __Style__ : *Properties of how research was conducted*
+			</textarea
+          >
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+				#### Findings
+				Identified the five types of uncertainties in research based on recurrent themes in the coded data, which seem to directly influence how feasible, desirable or useful researchers believed crowdsourcing to be as a research tool.
+			</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+				#### "Uncertainty" !? What!?
+				Means gaps in information needed for decision-making during the process of designing and executing a research project.
+				-  It influenced how researchers chose strategies to address these challenges, and understood current crowdsourcing technologies' capacities to accommodate these considerations.
+			</textarea
+            >
+          </section>
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+				#### I. Process Uncertainties
+				The process of discovery can be highly uncertain, iterative, and often serendipitous.
+			</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+				#### II. Data Uncertainties
+				- Sharing raw data can sometimes be problematic due to its sensitive nature; 
+				- Researchers to keep their project "private" and shared with only a small group of close colleagues.
+			</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+				#### III. Knowledge Uncertainties
+				The feasibility of crowdsourcing can depend on the type of knowledge the tasks require: minimal or in-depth knowledge.
+				
+			</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+				#### IV. Delegation Uncertainties
+				- How confindent the researchs are in delegating the task to general public?
+				- They may doubt if a crowdsourcing task would attract adequate participation.
+				- *"Why would anyone want to record electroencephalogram patterns on the weekend?"*
+			</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+				#### V. Quality Uncertainties
+				- Researchers might waht to delegate the task to a machine rahter than a human.
+				- Crowdsourcing may be undesirable to researchers who require absolute precision.
+				- But other may prefer if they can accept th equality-tradeoffs for collecting massive amount of data quickly or data from  diverse sources.
+			</textarea
+            >
+          </section>
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+				#### Duscission and Conclusion
+				- Under the right conditions, crowdsourcing can be a valuable tool for streamlining research processes.
+				- Depends on Feasibility, Desirability and Usefulness.
+			</textarea
+            >
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+				#### Crowdsourcing as a research tool
+				- Design better features for researcher-centric crowdsourcing platforms.
+				- Provide reliable decision-making guidelines and tools for practitioners and policy makers.
+			</textarea
+            >
+          </section>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+				# The End
+			</textarea
+          >
+        </section>
+      </div>
+    </div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-				slideNumber: true,
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
