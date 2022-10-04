@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Presentation</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/blood.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.container{
+				display: flex;
+			}
+			.col{
+				flex: 1;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h4>Crowdsourcing as a Tool for Research: Implications of Uncertainty</h4>
+					<div class="container">
+						<div class="col">
+							<p>Edith Law</p>
+							<small>University of Waterloo</small>
+						</div>
+						<div class="col">
+							<p>Krzysztof Z. Gajos</p>
+							<small>Harvard University</small>
+						</div>
+						<div class="col">
+							<p>Andrea Wiggins</p>
+							<small>University of Maryland</small>
+						</div>
+					</div>
+					<div class="container">
+						<div class="col">
+							<p>Mary L Gray</p>
+							<small>Microsoft Research</small>
+						</div>
+						<div class="col">
+							<p>Alex Williams</p>
+							<small>University of Waterloo</small>
+						</div>
+					</div>
+					<small>Edith Law et al., from Proceedings of ACM Computer-Supported Cooperative Work 2017, pp. 1544-1561.<a href="https://dl.acm.org/doi/pdf/10.1145/2998181.2998197" target="_new">[link]</a></small>
+				</section>
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							#### Q1: What workflow systems are being used at your university/workplace?
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							##### At Workplace
+								- New Hire Onboarding/Job Termination
+								- Organizing Leave Requests
+								- Hardware Request for your workdesk
+								- Automatic Inventory Management System
+								- Usually in a Microservices Architectur Environment
+						</textarea>		
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							##### At University
+								- Admission Process
+								- Adding/Changing Degree Plan
+								- International students applying for work authorization
+								- Any process which reuires request approvals
+						</textarea>		
+					</section>
+				</section>
+				<section>
+						<section data-markdown>
+							<textarea data-template>
+								#### Q2: Can you think of any non-software based example?
+							</textarea>
+						</section>
+						<section>
+							<div class="r-stack">
+								<img class="fragment" src="media/HowItsMade.jpg" width="500" height="500">
+								<img class="fragment" src="media/Ford.jpg" width="750" height="500">
+							</div>
+						</section>
+						
+				</section>
+				<section>
+						<section data-markdown>
+							<textarea data-template>
+								#### Q3: Has anyone built or worked on any workflow system? What tools/softwares did you used to build one?
+							</textarea>		
+						</section>
+						<section data-markdown>
+							<textarea data-template>
+								- AWS Simple Workflow Service (SWF), AWS Step Function, GCP Workflows
+								- Robotic Process Automation (RPA) Softwares
+							</textarea>		
+						</section>
+				</section>
+				<section>
+						<section data-markdown>
+							<textarea data-template>
+								#### Q4: Speaking of "Collaboration"
+								- Do you think the system discussed in the paper is a Collaborative Software?
+								- What new features or design changes will you intorduce so that it has
+									- Support for coordination?
+									- Support for communication?
+									- Support for awareness?
+							</textarea>		
+						</section>
+						<section data-markdown>
+							<textarea data-template>
+								Can you think of any other "collaborative" workflow management system?
+							</textarea>		
+						</section>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						#### Q5: CSCW Issues
+						- What cscw issues can this new system face?
+					</textarea>		
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					# The End
+					</textarea>		
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				slideNumber: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
